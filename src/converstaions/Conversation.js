@@ -23,7 +23,9 @@ console.log("item22",this.state.item)
         console.log("data",user.data())
         this.setState({profile:user.data()})
     })
+
     
+
     // firestore()
     // .collection(`conversations2`)
     // .doc(this.state.item.user_id)
